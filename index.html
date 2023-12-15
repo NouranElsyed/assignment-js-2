@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+        <!-- & ======>  google fonts ----------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- ? =====> link bootstrap ------------->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <!-- todo =====> link css style ---------->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center">
+        <div class="container w-75 h-75 rounded-5 p-5 ">
+            <h1 class="text-center  display-4 fw-bold w-100">Quote of the Day</h1>
+            <p class="text-center  fs-4 fw-normal w-100 mb-0">Press the button below to recieve a random quote!</p>
+            <div class="text-center"><button onclick="generate()" type="button" class="btn btn-danger mx-auto  px-4 py-2 my-4 fs-4 rounded-pill ">New Quote</button></div>
+            <p id="quote" class=" text-center fs-2 mt-4 fw-semibold w-100"></p>
+            <p  id="author" class=" text-center fs-3"></p>
+        </div>
+    </header>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
